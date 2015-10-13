@@ -18,14 +18,9 @@ var currentVeggie = "";
 
 // Get a reference to the appropriate DOM element for bands
 var bandElement = document.getElementById("boy-bands");
-bandElement.style.padding = "10px";
-bandElement.style.border = "2px solid black";
 
 // Get a reference to the appropriate DOM element for vegetables
 var veggieElement = document.getElementById("vegetables");
-veggieElement.style.marginTop = "70px";
-veggieElement.style.padding = "10px";
-veggieElement.style.border = "2px solid black";
 
 // Start looping
 for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
