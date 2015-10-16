@@ -38,7 +38,7 @@ function findTheCoinsBruh(theNumber) {
 
 	    multi_number = amtLeftOver;
 
-	    if(i === 0){
+	    if (i === 0){
 	    	console.log("The Number of Quarters is: ", numCoin);
 	    } else if(i === 1){
 	    	console.log("The Number of Dimes is: ", numCoin);
@@ -51,7 +51,7 @@ function findTheCoinsBruh(theNumber) {
 
 }
 
-findTheCoinsBruh(10.74);
+findTheCoinsBruh(.74);
 // function coinCounter () { // Initialize a JavaScript object to hold the coins var coinPurse = {};
 
 // coinPurse.quarters = 0;
